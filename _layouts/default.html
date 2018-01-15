@@ -1,12 +1,9 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<link rel="shortcut icon" href="">
-  <title>{{ page.title }}</title>
-  <!-- link to main stylesheet -->
-	<link rel="stylesheet" type="text/css" href="/css/styles.css">
-</head>
+<html lang="en">
+{% include head.html %}
 <body>
-{{ content }}
+  {% include header.html %}
+  
+  {{ content }}
 </body>
 </html>

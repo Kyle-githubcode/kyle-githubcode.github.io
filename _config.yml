@@ -1,7 +1,4 @@
 name: Site Name
-description: Website Description
-url: "localhost:4000"
-baseurl: ""
 sass:
     sass_dir: _sass
     style: compressed

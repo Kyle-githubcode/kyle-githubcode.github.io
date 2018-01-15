@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Title
+title: Header Title
 ---
-
 <h1>Header</h1>
 <p>Description</p>
 

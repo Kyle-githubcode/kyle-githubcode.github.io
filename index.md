@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Header Title
+title: Kyle Faulkner
 ---
-<h1>Header</h1>
-<p>Description</p>
+<h1>Kyle Faulkner</h1>
+<p>Overview</p>
 

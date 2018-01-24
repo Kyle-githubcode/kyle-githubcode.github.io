@@ -1,15 +1,19 @@
 ---
 ---
+@charset "utf-8";
+
+$icon-font-path:      "/fonts/bootstrap";
     
 @import "bootstrap";
 
+// Default font is Helvetica, becomes Arial or Sans-serif if the browser cannot support it
 body {
     margin: 60px auto;
     width: 70%;
     background-color: whitesmoke;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-// Default font is Helvetica, becomes Arial or Sans-serif if the browser cannot support it
 
 //nav bar
 nav ul, footer ul {
@@ -17,7 +21,6 @@ nav ul, footer ul {
     padding: 5px;
     list-style: none;
     font-weight: bold;
-    border: solid black;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -32,28 +35,7 @@ a:hover {
     text-decoration: underline;
 }
 
-//heading is twice the size of usual text
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-h2 {
-    font-size: 2.25em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-weight: bold;
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
 p a{
     text-decoration: none;
     color: blue;
-}
-
-
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
 }

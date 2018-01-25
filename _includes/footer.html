@@ -1,2 +1,15 @@
-<script src="/js/jquery/jquery.min.js"></script>
-<script src="/js/bootstrap/bootstrap.min.js"></script>
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <h3>{{ site.title }}</h3>
+
+        {% if site.github_username %}
+        <p>GitHub: <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a></p>
+        {% endif %}
+
+        <p>{{ site.description }}</p>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,6 +1,8 @@
 name: Kyle Faulkner
 description: Kyle Faulkner's developer portfolio
 url: "localhost:4000"
+github_username: kyle-githubcode
+email: kylebfaulkner@gmail.com
 baseurl: ""
 sass:
     sass_dir: _sass

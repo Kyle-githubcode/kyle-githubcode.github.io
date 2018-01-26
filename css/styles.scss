@@ -17,22 +17,24 @@ body {
 
 //nav bar
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 5px;
     list-style: none;
     font-weight: bold;
+
+     li {
+        display: inline;
+        margin-right: 20px;
+        padding: 0px;
+    }
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-    padding: 0px;
-}
+
 a {
     text-decoration: none;
     color: gray;
-}
-a:hover {
-    text-decoration: underline;
+
+    hover {
+        text-decoration: underline;
+    }
 }
 
 p a{

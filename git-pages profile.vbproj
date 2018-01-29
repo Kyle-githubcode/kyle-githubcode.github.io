@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{6B333F5A-151E-41F7-BA9A-7CFB38C9D895}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>git_pages_profile</RootNamespace>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Console</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\origin\HEAD" />
+    <None Include=".git\objects\pack\pack-bccf461dc0a7caa78b7488e9f13e828a824d59ed.idx" />
+    <None Include=".git\objects\pack\pack-bccf461dc0a7caa78b7488e9f13e828a824d59ed.pack" />
+    <None Include=".git\packed-refs" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\HEAD" />
+    <None Include=".vs\kyle-githubcode.github.io\v15\.suo" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="404.md" />
+    <None Include="about.md" />
+    <None Include="css\styles.scss" />
+    <None Include="fonts\bootstrap\glyphicons-halflings-regular.eot" />
+    <None Include="fonts\bootstrap\glyphicons-halflings-regular.ttf" />
+    <None Include="fonts\bootstrap\glyphicons-halflings-regular.woff" />
+    <None Include="fonts\bootstrap\glyphicons-halflings-regular.woff2" />
+    <None Include="index.md" />
+    <None Include="README.md" />
+    <None Include="_config.yml" />
+    <None Include="_sass\bootstrap\mixins\_alerts.scss" />
+    <None Include="_sass\bootstrap\mixins\_background-variant.scss" />
+    <None Include="_sass\bootstrap\mixins\_border-radius.scss" />
+    <None Include="_sass\bootstrap\mixins\_buttons.scss" />
+    <None Include="_sass\bootstrap\mixins\_center-block.scss" />
+    <None Include="_sass\bootstrap\mixins\_clearfix.scss" />
+    <None Include="_sass\bootstrap\mixins\_forms.scss" />
+    <None Include="_sass\bootstrap\mixins\_gradients.scss" />
+    <None Include="_sass\bootstrap\mixins\_grid-framework.scss" />
+    <None Include="_sass\bootstrap\mixins\_grid.scss" />
+    <None Include="_sass\bootstrap\mixins\_hide-text.scss" />
+    <None Include="_sass\bootstrap\mixins\_image.scss" />
+    <None Include="_sass\bootstrap\mixins\_labels.scss" />
+    <None Include="_sass\bootstrap\mixins\_list-group.scss" />
+    <None Include="_sass\bootstrap\mixins\_nav-divider.scss" />
+    <None Include="_sass\bootstrap\mixins\_nav-vertical-align.scss" />
+    <None Include="_sass\bootstrap\mixins\_opacity.scss" />
+    <None Include="_sass\bootstrap\mixins\_pagination.scss" />
+    <None Include="_sass\bootstrap\mixins\_panels.scss" />
+    <None Include="_sass\bootstrap\mixins\_progress-bar.scss" />
+    <None Include="_sass\bootstrap\mixins\_reset-filter.scss" />
+    <None Include="_sass\bootstrap\mixins\_reset-text.scss" />
+    <None Include="_sass\bootstrap\mixins\_resize.scss" />
+    <None Include="_sass\bootstrap\mixins\_responsive-visibility.scss" />
+    <None Include="_sass\bootstrap\mixins\_size.scss" />
+    <None Include="_sass\bootstrap\mixins\_tab-focus.scss" />
+    <None Include="_sass\bootstrap\mixins\_table-row.scss" />
+    <None Include="_sass\bootstrap\mixins\_text-emphasis.scss" />
+    <None Include="_sass\bootstrap\mixins\_text-overflow.scss" />
+    <None Include="_sass\bootstrap\mixins\_vendor-prefixes.scss" />
+    <None Include="_sass\bootstrap\_alerts.scss" />
+    <None Include="_sass\bootstrap\_badges.scss" />
+    <None Include="_sass\bootstrap\_breadcrumbs.scss" />
+    <None Include="_sass\bootstrap\_button-groups.scss" />
+    <None Include="_sass\bootstrap\_buttons.scss" />
+    <None Include="_sass\bootstrap\_carousel.scss" />
+    <None Include="_sass\bootstrap\_close.scss" />
+    <None Include="_sass\bootstrap\_code.scss" />
+    <None Include="_sass\bootstrap\_component-animations.scss" />
+    <None Include="_sass\bootstrap\_dropdowns.scss" />
+    <None Include="_sass\bootstrap\_forms.scss" />
+    <None Include="_sass\bootstrap\_glyphicons.scss" />
+    <None Include="_sass\bootstrap\_grid.scss" />
+    <None Include="_sass\bootstrap\_input-groups.scss" />
+    <None Include="_sass\bootstrap\_jumbotron.scss" />
+    <None Include="_sass\bootstrap\_labels.scss" />
+    <None Include="_sass\bootstrap\_list-group.scss" />
+    <None Include="_sass\bootstrap\_media.scss" />
+    <None Include="_sass\bootstrap\_mixins.scss" />
+    <None Include="_sass\bootstrap\_modals.scss" />
+    <None Include="_sass\bootstrap\_navbar.scss" />
+    <None Include="_sass\bootstrap\_navs.scss" />
+    <None Include="_sass\bootstrap\_normalize.scss" />
+    <None Include="_sass\bootstrap\_pager.scss" />
+    <None Include="_sass\bootstrap\_pagination.scss" />
+    <None Include="_sass\bootstrap\_panels.scss" />
+    <None Include="_sass\bootstrap\_popovers.scss" />
+    <None Include="_sass\bootstrap\_print.scss" />
+    <None Include="_sass\bootstrap\_progress-bars.scss" />
+    <None Include="_sass\bootstrap\_responsive-embed.scss" />
+    <None Include="_sass\bootstrap\_responsive-utilities.scss" />
+    <None Include="_sass\bootstrap\_scaffolding.scss" />
+    <None Include="_sass\bootstrap\_tables.scss" />
+    <None Include="_sass\bootstrap\_theme.scss" />
+    <None Include="_sass\bootstrap\_thumbnails.scss" />
+    <None Include="_sass\bootstrap\_tooltip.scss" />
+    <None Include="_sass\bootstrap\_type.scss" />
+    <None Include="_sass\bootstrap\_utilities.scss" />
+    <None Include="_sass\bootstrap\_variables.scss" />
+    <None Include="_sass\bootstrap\_wells.scss" />
+    <None Include="_sass\_bootstrap.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\bootstrap\glyphicons-halflings-regular.svg" />
+    <Content Include="js\bootstrap\bootstrap.min.js" />
+    <Content Include="js\jquery\jquery.min.js" />
+    <Content Include="_includes\footer.html" />
+    <Content Include="_includes\head.html" />
+    <Content Include="_includes\navbar.html" />
+    <Content Include="_layouts\default.html" />
+    <Content Include="_layouts\page.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include=".vs\git-pages profile\v15\" />
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

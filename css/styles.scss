@@ -4,7 +4,8 @@
 @charset "utf-8";
 
 $icon-font-path:      "/fonts/bootstrap";
-    
+
+@import "bootstrap-sprockets";
 @import "bootstrap";
 
 // Default font is Helvetica, becomes Arial or Sans-serif if the browser cannot support it
@@ -50,3 +51,8 @@ footer{
     text-align: center;
 }
 
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}

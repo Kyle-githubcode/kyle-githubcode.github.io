@@ -4,6 +4,9 @@ url: "localhost:4000"
 github_username: kyle-githubcode
 email: kylebfaulkner@gmail.com
 baseurl: ""
+preprocess_command: "sed '1{/^---$/{:a N;/---$/!ba;d}}'"
+preprocess_files:
+    'css/styles.scss'
 sass:
     sass_dir: _sass
     style: compressed

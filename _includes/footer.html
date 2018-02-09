@@ -1,12 +1,17 @@
 <footer>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12">
-        <h3>{{ site.name }}</h3>
 
         {% if site.github_username %}
-        <p>GitHub: <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a></p>
+        <a href="https://github.com/{{ site.github_username }}" class="btn btn-social-icon btn-github">
+          <span class="fa fa-github"></span>
+        </a>
         {% endif %}
+        <a href="https://www.linkedin.com/in/kyle-faulkner-61905b91/" class="btn btn-social-icon btn-linkedin">
+          <span class="fa fa-linkedin"></span>
+        </a>
 
         <p>{{ site.description }}</p>
       </div>

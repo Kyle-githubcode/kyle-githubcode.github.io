@@ -13,10 +13,8 @@
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
-					{% for page in site.pages %}
-					{% if page.title  and page.categories contains 'navbar' %}
-					<li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-					{% endif %}
+					{% for section in site.data.index-sections %}
+					<li><a class="page-link" href=#{{ section.html }}>{{ section.subtitle }}</a></li>
 					{% endfor %}
 
 				</ul>

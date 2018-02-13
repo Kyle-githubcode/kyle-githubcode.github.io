@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+{% for section in site.data.index-sections %}
+<section id={{section.html}} class="container-fluid">
+
+	<header class="text-center">
+		<h2>{{ section.title }}</h2>
+	</header>
+
+ 	<div class="jumbotron">
+	  <article>
+	  	<h3 class="bg-3 text-center">{{ section.subtitle }}</h3>
+          {% capture section_html %}{% include sections/{{ section.html }}.md %}{% endcapture %}
+          {{ section_html | markdownify }}
+	  </article>
+	</div>
+</section>
+{% endfor %}

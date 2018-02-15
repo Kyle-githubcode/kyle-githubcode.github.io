@@ -5,10 +5,8 @@
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
-
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
-
       <div class="item active">
 		<a href="https://github.com/Kyle-githubcode/NETBudget">
 			<img src="images/NETBudget.png" alt="NETBudget" style="width:100%;">
@@ -20,7 +18,6 @@
       </div>
   
     </div>
-
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>

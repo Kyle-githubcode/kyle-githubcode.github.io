@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\css"
+    "\\css",
+    "\\_data",
+    "\\_includes",
+    "\\_includes\\sections"
   ],
-  "SelectedNode": "\\_config.yml",
+  "SelectedNode": "\\_data\\index-sections.yml",
   "PreviewInSolutionExplorer": false
 }

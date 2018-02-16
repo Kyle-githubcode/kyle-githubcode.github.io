@@ -16,6 +16,15 @@
           <p>Simple budget database using ASP.NET</p>
         </div>
       </div>
+      <div class="item active">
+		<a href="https://github.com/Kyle-githubcode/RubyDictionary">
+			<img src="images/RubyDictionary.png" alt="NETBudget" style="width:100%;">
+		</a>
+        <div class="carousel-caption">
+          <h3>RubyDictionary</h3>
+          <p>Searchable dictionary using Ruby on Rails</p>
+        </div>
+      </div>
   
     </div>
     <!-- Left and right controls -->

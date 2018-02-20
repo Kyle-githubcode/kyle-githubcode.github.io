@@ -2,10 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\css",
+    "\\images",
     "\\_data",
     "\\_includes",
     "\\_includes\\sections"
   ],
-  "SelectedNode": "\\_data\\index-sections.yml",
+  "SelectedNode": "\\images\\RubyDictionary.png",
   "PreviewInSolutionExplorer": false
 }

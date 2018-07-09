@@ -174,7 +174,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="css\styles.scss" />
-    <None Include="css\test.scss" />
     <Content Include="fonts\bootstrap\glyphicons-halflings-regular.svg" />
     <Content Include="js\bootstrap\bootstrap.min.js" />
     <Content Include="js\jquery\jquery.min.js" />

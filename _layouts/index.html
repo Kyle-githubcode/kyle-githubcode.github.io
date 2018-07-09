@@ -14,7 +14,7 @@ layout: default
             <h3 class="bg-3 text-center">{{ section.subtitle }}</h3>
             {% capture section_html %}{% include sections/{{ section.html }}.md %}{% endcapture %}
             {{ section_html | markdownify }}
-        </section>
+        </div>
     </div>
 </section>
 {% endfor %}

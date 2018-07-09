@@ -2,21 +2,19 @@
 layout: default
 ---
 
-{% for section in site.data.index-sections %}
-<section id={{section.html}} class="container-fluid">
+<header class="text-center">
+    <h2>{{ page.title }}</h2>
+</header>
 
-    {% if section.title %}
-    <header class="text-center">
-        <h2>{{ section.title }}</h2>
-    </header>
-    {% endif %}
+{% for section in site.data.index-sections %}
+<div id={{section.html}} class="container-fluid">
 
     <div class="jumbotron">
-        <article>
+        <section>
             <h3 class="bg-3 text-center">{{ section.subtitle }}</h3>
             {% capture section_html %}{% include sections/{{ section.html }}.md %}{% endcapture %}
             {{ section_html | markdownify }}
-        </article>
+        </section>
     </div>
 </section>
 {% endfor %}

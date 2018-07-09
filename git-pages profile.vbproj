@@ -92,8 +92,7 @@
     <None Include=".vs\slnx.sqlite" />
     <None Include=".vs\VSWorkspaceState.json" />
     <None Include="404.md" />
-    <None Include="about.md" />
-    <None Include="css\styles.scss" />
+    <None Include="_sass\base.scss" />
     <None Include="fonts\bootstrap\glyphicons-halflings-regular.eot" />
     <None Include="fonts\bootstrap\glyphicons-halflings-regular.ttf" />
     <None Include="fonts\bootstrap\glyphicons-halflings-regular.woff" />
@@ -174,6 +173,8 @@
     <None Include="_sass\_bootstrap.scss" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="css\styles.scss" />
+    <None Include="css\test.scss" />
     <Content Include="fonts\bootstrap\glyphicons-halflings-regular.svg" />
     <Content Include="js\bootstrap\bootstrap.min.js" />
     <Content Include="js\jquery\jquery.min.js" />

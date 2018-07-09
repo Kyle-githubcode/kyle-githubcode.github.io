@@ -1,0 +1,49 @@
+﻿
+// Default font is Helvetica, becomes Arial or Sans-serif if the browser cannot support it
+body {
+    margin: 60px auto;
+    width: 70%;
+    background-color: whitesmoke;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+
+//nav bar
+nav ul, footer ul {
+    padding: 5px;
+    list-style: none;
+    font-weight: bold;
+
+     li {
+        display: inline;
+        margin-right: 20px;
+        padding: 0px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+
+    hover {
+        text-decoration: underline;
+    }
+}
+
+p a{
+    text-decoration: none;
+    color: blue;
+}
+
+footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}

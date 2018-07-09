@@ -1,11 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\css",
     "\\images",
     "\\_data",
     "\\_includes",
-    "\\_includes\\sections"
+    "\\_includes\\sections",
+    "\\_layouts",
+    "\\_site",
+    "\\_site\\css"
   ],
+  "SelectedNode": "\\_site\\css",
   "PreviewInSolutionExplorer": false
 }
